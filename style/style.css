@@ -167,4 +167,39 @@ p{
     justify-content: flex-start;
     align-items: flex-start;
 }
+/* inspiration-part style */
 
+.inspiration-part{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+.inspiration-title{
+    width: 852px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0 auto;
+}
+.inspiration-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+}
+.inspiration-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    text-align: center;
+}
+.inspiration-video{
+    width: 1140px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+   
+}
