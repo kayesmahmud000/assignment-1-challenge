@@ -25,6 +25,7 @@ nav button{
     width: 1440px;
     height: 652px;
     margin: 0 auto;
+    margin-top: 20px;
     background-image: url(../assets/Hero-bg.png);
 }
 .banner-item{
@@ -50,6 +51,7 @@ p{
     margin: 24px 0;
     text-align: center;
 }
+/* button style */
 .banner-btn{
     width: 208px;
     height: 66px;
@@ -60,7 +62,109 @@ p{
 }
 .banner-btn h4{
     color: rgb(255, 255, 255);
+}
+/* web development style */
 
-   
+.web-development-section{
+    width: 1140px;
+    height: 1260px;
+    margin:  24px auto;
+    padding:px 90px 75px 90px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
+.development-heading{
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.wed-development-title{
+    color:rgb(13, 19, 33);
+    font-size: 28px;
+}
+/* web explore style */
+
+.explore-part{
+    width: 946px;
+    height: 940px;
+    margin: o auto;
+    margin-top: 35px;
+    padding:35px;
+}
+.explore-part h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+.explore-part p{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+}
+.explore-part button{
+    width: 140px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.explore--first-part{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.first-part-description{
+    width: 477px;
+    height: 219px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.explore--second-part{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.second-part-description{
+    width: 477px;
+    height: 219px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.explore--third-part{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.third-part-description{
+    width: 477px;
+    height: 219px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
