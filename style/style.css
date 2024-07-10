@@ -206,8 +206,7 @@ p{
 
 .target-content{
     width: 1140px;
-    height: 1437px;
-    border: 2px solid red;
+    height: 560px;
     margin: 0 auto;
 }
 .target-title{
@@ -239,6 +238,7 @@ p{
     justify-content: flex-start;
     align-items: center;
     margin-top: 90px;
+    margin-bottom: 70px;
 }
 .target-image-content p{
     color: rgb(13, 19, 33);
@@ -248,7 +248,7 @@ p{
 }
 .first-target{
     width: 364px;
-    height: 299px;
+    height: 250px;
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     margin: 0px 24px;
@@ -257,7 +257,7 @@ p{
 }
 .second-target{
     width: 364px;
-    height: 299px;
+    height: 250px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
     margin: 0px 24px;
@@ -266,7 +266,7 @@ p{
 }
 .third-target{
     width: 364px;
-    height: 299px;
+    height: 250px;
     border-radius: 16px;
     background:rgba(255, 223, 0, 0.05);
     margin:0px 24px;
@@ -275,4 +275,69 @@ p{
 }
 .target-image-content a{
     color: #000;
+}
+/* support section style */
+.support-section{
+    width: 1140px;
+    height: 313px;
+    background: url(../assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 64px 48px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.support-section-title{
+    width: 730px;
+height: 104px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+
+}
+.support-section-title h2{
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+font-weight: 700;
+text-align: center;
+
+}
+.support-section-title p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+}
+.support-section input{
+    width: 520px;
+    height: 57px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+.support-section button{
+    width: 120px;
+height: 57px;
+font-size: 20px;
+padding: 8px 10px 8px 10px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin-top: 50px
 }
